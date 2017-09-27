@@ -1,0 +1,8 @@
+﻿@*  This view is new for this version of MVC.
+    The ViewImports file is a place where we can write code and place common directives to pull in namespaces that our views need.
+    If there are namespaces that we commonly use in our views, we can have using directives appear once in our ViewImports file instead
+    of having using directives in every view or typing out the full namespace of a class.*@
+
+@using AspNetCoreApp
+@inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet JavaScriptSnippet
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
